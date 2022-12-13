@@ -1,0 +1,186 @@
+*{
+    margin : 0 auto;
+    align-self: center;
+    /* justify-content: center; */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+body{
+    background-color:#BDBDBD;
+}
+
+h1{
+    font-size: 3em;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
+
+
+.return-img {
+    width: 4%;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.map{
+    justify-content: center;
+    border: solid black 0.5em;
+    padding: 0.5em;
+    width: 80%;
+}
+
+.l0, .l1, .l2, .l3, .l4, .l5{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.img-l1-c0, .img-l1-c1, .img-l1-c2, .img-l1-c3, .img-l1-c4, .img-l1-c5, .img-l1-c6, .img-l1-c7, .img-l1-c8,
+.img-l2-c0, .img-l2-c1, .img-l2-c2, .img-l2-c3, .img-l2-c4, .img-l2-c5, .img-l2-c6, .img-l2-c7, .img-l2-c8,
+.img-l3-c0, .img-l3-c1, .img-l3-c2, .img-l3-c3, .img-l3-c4, .img-l3-c5, .img-l3-c6, .img-l3-c7, .img-l3-c8,
+.img-l4-c0, .img-l4-c1, .img-l4-c2, .img-l4-c3, .img-l4-c4, .img-l4-c5, .img-l4-c6, .img-l4-c7, .img-l4-c8,
+.img-l5-c0, .img-l5-c1, .img-l5-c2, .img-l5-c3, .img-l5-c4, .img-l5-c5, .img-l5-c6, .img-l5-c7, .img-l5-c8{
+    width: 100%;
+}
+
+/* .l1-c1, .l1-c2, .l1-c3, .l1-c4, .l1-c5, .l1-c6, .l1-c7, .l1-c8,
+.l2-c1, .
+{
+
+} */
+
+/* .select{
+    margin: 1em;
+}
+
+.select-car{
+    display: flex;
+    justify-content:space-evenly;
+    width: 50%;
+} */
+
+/* .voiture-1, .voiture-2, .voiture-3, .voiture-4, .voiture-5{
+} */
+
+.buttons{
+    display: flex;
+    width: 60%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.start-button{
+    font-size: 2em;
+    width: 50%;
+
+}
+
+.refresh-button{
+    font-size: 2em;
+    width: 50%;
+}
+
+.index1, .index2, .index3{
+    width: 18%;
+    font-size: 1.3em;
+    margin: 0.5em;
+}
+
+.select-car{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+
+.voiture-1, .voiture-2, .voiture-3, .voiture-4, .voiture-5{
+    width: 15%;
+}
+
+.rankings{
+    display: flex;
+    justify-content: space-between;
+    margin-top:1em;
+    margin-bottom: 1em;
+    width: 60%;
+}
+
+.rank{
+    border: 0.2em solid black;
+    width: 10%;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+.rankingV1, .rankingV2, .rankingV3, .rankingV4, .rankingV5{
+    font-size: 2em;
+    width: 100%;
+}
+
+.dices{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 60%;
+}
+
+.dice{
+    border: 0.2em solid black;
+    width: 10%;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+.roll0, .roll1, .roll2, .roll3, .roll4, .roll5{
+    font-size: 2em;
+    width: 100%;
+}
+
+.result{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* .table-result{
+    display: block;
+    width: 50%;
+    margin-top: 2em;
+}
+
+.ligne0, .ligne1, .ligne2, .ligne3, .ligne4, .ligne5{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.ligne0-colonne1, .ligne1-colonne1, .ligne2-colonne1, .ligne3-colonne1, .ligne4-colonne1, .ligne5-colonne1,
+.ligne0-colonne2, .ligne1-colonne2, .ligne2-colonne2, .ligne3-colonne2, .ligne4-colonne2, .ligne5-colonne2,
+.ligne0-colonne3, .ligne1-colonne3, .ligne2-colonne3, .ligne3-colonne3, .ligne4-colonne3, .ligne5-colonne3{
+    width: 30%;
+}  */
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    position: absolute;
+    bottom: 1em;
+    left: 5em;
+    right: 5em; 
+    }
+
+.footer-1{
+    margin-left: 3em;
+}
+
+.footer-3{
+    margin-right: 3em;
+}

@@ -1,0 +1,215 @@
+*{
+    margin: 0.1rem;
+    padding: 0;
+    align-self:center;
+}
+
+body{
+    background-color:rgb(93, 133, 129);
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.return-img {
+    width: 4%;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.rules{
+    position:absolute;
+    top: 3%;
+    left: 2%;
+    color: black;
+}
+
+.joueurs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.joueur1, .joueur2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Silkscreen', cursive;
+    width: 40%;
+}
+
+.joueur1{
+    margin-left: 1em;
+}
+
+.joueur2{
+    margin-right: 1em;
+}
+
+.img{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 0.5em;
+    margin-bottom: 1%;
+}
+
+.img-1-chevrons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-left: 1.5em;
+}
+
+.img-1{
+    border: solid black 0.3em;
+    width: 50%;
+    height: auto;
+}
+
+.img-2-chevrons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-right: 1.5em;
+}
+
+.img-2{
+    border: solid black 0.3em;
+    width: 50%;
+    height: auto;
+}
+
+.chevronleft2{
+    opacity: 0;
+}
+
+.chevronright2{
+    opacity: 0;
+}
+
+.bouton1{
+    margin-right: 2em;
+    font-size: 13px;
+}
+
+.bouton2{
+    margin-left: 2em;
+    font-size: 0.8em;
+}
+
+.choix{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.choixp1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+}
+
+.resultat{
+    margin-top: 1em;
+}
+
+.pierrep1, .feuillep1, .ciseauxp1, .pierrep2, .feuillep2, .ciseauxp2{
+    margin: 0.1em;
+    width: 20%;
+}
+
+.choixp2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+}
+
+.resultat{
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    padding: 0.1em;
+    margin: auto;
+}
+
+.scores{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.score1, .score2{
+    padding: 0.5em;
+    border: solid 1px black;
+    border-radius: 1em;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+}
+
+.scorep1{
+    padding: 0.2em;
+    width:25%;
+    font-size: 1.5rem;
+    margin-left: 6em;
+}
+
+.scorep2{
+    text-align: center;
+    padding: 0.2em;
+    width:25%;
+    font-size: 1.5rem;
+    margin-right: 6em;
+}
+
+.refresh{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    align-self: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position: absolute;
+    bottom: 1em;
+    left: 5em;
+    right: 5em; 
+    }
+
+.div-footer-1{
+    margin-left: 0.5em;
+    width: 20%;
+}
+
+.div-footer-2{
+    width: 45%;
+}
+
+.div-footer-3{
+    margin-right: 0.5em;
+    width: 20%;
+}
+
+.div-footer-3-1{
+    border: none;
+    text-decoration: none;
+    color: black;
+}

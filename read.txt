@@ -1,0 +1,9 @@
+Shifumi : Nb de manches et annonce de victoire quand score atteint
+
+Bouton pour remonter en haut de la page
+
+Footer, aligner texte partie droite et logos
+
+Catégories de projet : jeux / sites web / ...
+
+Pouvoir cliquer
